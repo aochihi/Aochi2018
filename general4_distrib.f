@@ -83,7 +83,7 @@ ccc
         dip = 45.d0
         outfile = "test.out"
 ccc        
-ccc DO NOTE MODIFY BELOW
+ccc DO NOT MODIFY BELOW
 ccc
 	pi = 3.1415920d0
 	g = 9.81
