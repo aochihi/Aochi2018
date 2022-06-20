@@ -14,9 +14,11 @@ general4_distrib.f: Stress condition for a normal fault.
 
 general4r_distrib.f: Stress condition for a reverse fault. 
 
-1. Compile: gfortran general4_distrib.f
+## Compile: 
 
-2. Default setting: 
+gfortran general4_distrib.f
+
+## Default setting: 
 
   fs = 0.6 : static frictional coefficient
   
@@ -28,9 +30,11 @@ general4r_distrib.f: Stress condition for a reverse fault.
   
   ( t-value = 1.0 implicitly: defining how large Mohr circle is between two friction lines according to Aochi and Ulrich, BSSA, 2015.)
 
-3. Input: None (all the parameters are to set in the main program inside)
+## Input: 
 
-4. Output: "test.out" (zdep, s1, s3, fd, tau0, tp, tr, sn0)
+None (all the parameters are to set in the main program inside)
+
+## Output: "test.out" (zdep, s1, s3, fd, tau0, tp, tr, sn0)
 
   zdep (km) : variable.
 
