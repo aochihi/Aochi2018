@@ -55,7 +55,13 @@ None (all the parameters are to set in the main program inside)
 
 # Programs (Aochi & Tsuda, 2022)
 
-layer5rev_distrib.f: reverse faulting
+layer5rev_distrib.f: reverse faulting (Figure 3 and Figure 10)
+
+layer5ss_distrib.f: strike-slip faulting (Figure 4)
+
+## Compile
+
+gfortran layer5rev_distrib.f
 
 ## Input:
 
@@ -65,15 +71,25 @@ infile = "1d.txt" or "1d_teil.txt"
 
 2nd lines - : Depth of layer top (km), Vs (m/s), medium density (kg/m3)
 
-## Output 1: "before_constrained.dat"
+## Output 1: "before_constrained.dat" fpr layer5rev_distrib.f
 
-Depth (km), S_3=S_v (MPa), S_1=S_H (MPa), Delta sigma (MPa), ridigidy (Pa), Delta epsilon
+Depth (km), S_3=S_v (MPa), S_1=S_H (MPa), Delta sigma (MPa), rigidity (Pa), Delta epsilon
 
-## Output 2: "constrained.dat"
+## Output 1ss: "ss_before_constrained.dat" for layer5s_distrib.f
+
+Depth (km), S_3=S_h (MPa), S_2=S_v (MPa), S_1=S_H (Mpa), Delta sigma (MPa), rigidity (Pa), Delta epsilon
+
+## Output 2: "constrained.dat" for layer5rev_distrib.f
 
 1st-2nd lines: headers
 
 Depth (km), S_3=S_v (MPa), S_1=S_H (MPa), Delta sigma (MPa), ridigidy (Pa), Delta epsilon
+
+## Output 2ss: "ss_constrained.dat" for layer5ss_distrib.f
+
+1st-2nd lines: headers
+
+Depth (km), S_3=S_h (MPa), S_2=S_v (MPa), S_1=S_H (Mpa), Delta sigma (MPa), rigidity (Pa), Delta epsilon
 
 
 
