@@ -1,4 +1,4 @@
-# Aochi2018
+# Depth depedent stress setting for dynamic rupture simulations
 
 This repertory provides the programs calculating the depth-dependent stress accumulation on faults for earthquake simulations.
 
