@@ -4,7 +4,7 @@ This repertory provides the programs calculating the depth-dependent stress accu
 
 The formulations are based on the following papers, using Coulomb friction and Mohr circle. 
 
-1. Aochi, H., Dynamic asymmetry of normal and reverse faults due to constrained depth-dependent stress accumulation, Geophys. J. Int., 215, 2134-3243, doi:10.1093/ggy407, 2018.
+1. Aochi, H., Dynamic asymmetry of normal and reverse faults due to constrained depth-dependent stress accumulation, Geophys. J. Int., 215, 2134-3243, 2018. https//doi.org/10.1093/gji/ggy407
 
 2. Aochi, H. & K. Tsuda, Dynamic rupture simulatios based on depth-dependent stress accumulation, Geophys. J. Int., published on line, 2022. https://doi.org/10.1093/gji/ggac453
 
