@@ -6,7 +6,7 @@ The formulations are based on the following papers, using Coulomb friction and M
 
 1. Aochi, H., Dynamic asymmetry of normal and reverse faults due to constrained depth-dependent stress accumulation, Geophys. J. Int., 215, 2134-3243, 2018. https://doi.org/10.1093/gji/ggy407
 
-2. Aochi, H. & K. Tsuda, Dynamic rupture simulatios based on depth-dependent stress accumulation, Geophys. J. Int., published on line, 2022. https://doi.org/10.1093/gji/ggac453
+2. Aochi, H. & K. Tsuda, Dynamic rupture simulatios based on depth-dependent stress accumulation, Geophys. J. Int., 233, 182-194, 2023. https://doi.org/10.1093/gji/ggac453
 
 # Programs (Aochi, 2018)
 
@@ -53,7 +53,7 @@ None (all the parameters are to set in the main program inside)
   sn0 : initial normal stress for a given fault: calculated
 
 
-# Programs (Aochi & Tsuda, 2022)
+# Programs (Aochi & Tsuda, 2023)
 
 layer5rev_distrib.f: reverse faulting (Figure 3 and Figure 10)
 
